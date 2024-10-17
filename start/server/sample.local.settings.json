@@ -1,10 +1,10 @@
 {
   "IsEncrypted": false,
   "Values": {
-    "AzureWebJobsStorage": "<STORAGE_CONNECTION_STRING>",
+    "AzureWebJobsStorage": "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=signalr65cfa04a8f;AccountKey=Y/Lc+fNu1uqUfz6+ywDVnfv1zH6IJNt4VjdpdyvMUFGNe/KCbNU8yTjRKbv6XSlx0dXM5QoluQxU+ASt8cRhEA==;BlobEndpoint=https://signalr65cfa04a8f.blob.core.windows.net/;FileEndpoint=https://signalr65cfa04a8f.file.core.windows.net/;QueueEndpoint=https://signalr65cfa04a8f.queue.core.windows.net/;TableEndpoint=https://signalr65cfa04a8f.table.core.windows.net/",
     "FUNCTIONS_WORKER_RUNTIME": "node",
     "AzureWebJobsFeatureFlags": "EnableWorkerIndexing",
-    "COSMOSDB_CONNECTION_STRING": "<COSMOSDB_CONNECTION_STRING>"
+    "COSMOSDB_CONNECTION_STRING": "AccountEndpoint=https://signalr-cosmos-2942243a69.documents.azure.com:443/;AccountKey=Nefdo2Qs5BUuPoI23lvw9zSz3Qx7jP7PRmwf1JQGSI1vj1wXqIFGPIYOR0g52W5QiGQ2RNDj5bIzACDbSEcRAg==;"
   },
   "Host" : {
     "LocalHttpPort": 7071,
