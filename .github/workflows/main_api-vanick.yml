@@ -25,6 +25,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ env.NODE_VERSION }}
+          check-latest: true
 
       - name: "Resolve Project Dependencies Using Npm"
         shell: pwsh
